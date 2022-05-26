@@ -1,0 +1,114 @@
+/*
+ * Generic styles
+ */
+#bcubed {position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; margin: 0; background: #000 url('../coolmethgames/background.jpg') no-repeat 50% 50%; background-size: cover; color: #fff; font-family: 'Titillium Web', sans-serif; font-weight: 700; text-align: center; cursor: default; user-select: none}
+#bcubed p {margin: 0; padding: 0}
+#bcubed canvas {position: absolute; left: 0; top: 0; display: block; touch-action: none}
+#bcubed button {overflow: visible; padding: 2px; margin: 0; border: none; background: transparent; color: #fff; font-family: 'Titillium Web', sans-serif; font-weight: 900; text-transform: uppercase; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; cursor: pointer; outline: none; -webkit-tap-highlight-color: transparent}
+#bcubed a {cursor: pointer; -webkit-tap-highlight-color: transparent}
+
+
+/*
+ * Various buttons
+ */
+
+/* "Level Menu" button in the bottom right corner of the screen during play */
+#bcubed button.bcubed-level-menu {position: absolute; bottom: 0; right: 10px; font-size: 24px; color: #f00}
+#bcubed button.bcubed-level-menu:active {color: #f66}
+
+/* "Back" button */
+#bcubed button.bcubed-back {font-weight: 900; font-size: 24px; color: #ff0; text-shadow: none}
+#bcubed button.bcubed-back:active {color: #ff6}
+
+/* Main menu buttons */
+#bcubed button.bcubed-start {font-size: 90px; color: #f00}
+#bcubed button.bcubed-start:active {color: #f66}
+
+/* "Next Level" button */
+#bcubed button.bcubed-next-level {font-size: 36px; color: #f00}
+#bcubed button.bcubed-next-level:active {color: #f66}
+
+/* "Click Here" button */
+#bcubed button.bcubed-click-here {font-size: 36px; color: #921092}
+#bcubed button.bcubed-click-here:active {}
+
+
+/*
+ * Simple loading screen
+ */
+#bcubed-start-screen {position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 4; background: #000}
+#bcubed-start-screen>div {position: absolute; left: 50%; top: 50%; width: 600px; height: 550px; margin: -275px 0 0 -300px; transform-origin: 50% 50%}
+#bcubed-start-screen>div>* {position: absolute; z-index: 1; width: 100%; height: 100%; opacity: 0; transition: opacity 0.25s}
+#bcubed-start-screen>div>.bcubed-visible {opacity: 1; z-index: 2}
+
+#bcubed-start-screen #bcubed-loading a {position: absolute; left: 120px; top: 360px; width: 365px; height: 60px; color: transparent}
+#bcubed-start-screen #bcubed-loading img {display: block; pointer-events: none}
+#bcubed-start-screen .bcubed-loading-bar {position: absolute; left: 201px; top: 430px; width: 200px; height: 18px; border: 2px solid #ff0}
+#bcubed-start-screen #bcubed-loading-progress {display: block; width: 0; height: 18px; background: #f00; transition: width 0.25s}
+
+/* Site lock banner */
+#bcubed-start-screen #bcubed-site-lock .bcubed-message {display: block; width: 354px; height: 230px; margin: 90px auto 0; background: transparent url('../coolmethgames/lock.png') no-repeat 0 0; color: transparent}
+#bcubed-start-screen #bcubed-site-lock a {display: block; width: 162px; height: 66px; margin: -15px auto 0; background: transparent url('../coolmethgames/lock.png') no-repeat -163px -231px; color: transparent}
+#bcubed-start-screen #bcubed-site-lock a:active {background-position: 0 -231px}
+
+
+/*
+ * Sound and music options in the top right corner
+ */
+#bcubed-options {position: absolute; top: 10px; right: 10px; z-index: 3}
+#bcubed-options button {width: 32px; height: 32px; background: url('../coolmethgames/otpions.png') no-repeat 0 0; background-size: 64px}
+#bcubed-options button#bcubed-music-toggle {background-position: 0 0}
+#bcubed-options button#bcubed-music-toggle.bcubed-off {background-position: 0 -32px}
+#bcubed-options button#bcubed-sound-toggle {background-position: -32px 0}
+#bcubed-options button#bcubed-sound-toggle.bcubed-off {background-position: -32px -32px}
+
+
+/*
+ * In-game UI elements
+ */
+#bcubed-game {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; color: #80ff00; opacity: 0; pointer-events: none; transition: opacity 0.25s}
+#bcubed-game.bcubed-visible {opacity: 1; pointer-events: auto}
+#bcubed-game>p {float: left; margin: 10px 0 0 10px; padding: 0; font-size: 18px; line-height: 1.25}
+#bcubed-game>p+p {clear: left; margin-top: 4px; font-size: 25px}
+
+
+/*
+ * Menu screens
+ */
+#bcubed-menu {position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 2; opacity: 0; transition: opacity 0.25s; pointer-events: none}
+#bcubed-menu.bcubed-visible {opacity: 1; pointer-events: auto}
+#bcubed-menu-scale {position: absolute; top: 0; left: 0; right: 0; bottom: 0; transform-origin: 50% 50%}
+
+#bcubed .bcubed-page {opacity: 0; pointer-events: none}
+#bcubed .bcubed-page.bcubed-visible {opacity: 1; pointer-events: auto}
+#bcubed p.bcubed-page,
+#bcubed div.bcubed-page {position: absolute; top: 50%; left: 50%; z-index: 0; width: 600px; height: 550px; margin: -275px 0 0 -300px; transform-origin: 50% 50%}
+
+/* Level completed summary */
+#bcubed div.bcubed-page.bcubed-level-won {position: absolute; top: 50%; left: 50%; width: 346px; height: 276px; margin: -138px 0 0 -173px; border: 4px solid #ffff00; border-radius: 2px; font-size: 25px}
+#bcubed div.bcubed-page.bcubed-level-won h1 {margin: 0; padding: 0; color: #f00; font-family: 'Titillium Web', sans-serif; font-weight: 900; font-size: 40px; line-height: 80px; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff}
+#bcubed div.bcubed-page.bcubed-level-won p {line-height: 60px}
+
+/* Game completed summary */
+#bcubed div.bcubed-page.bcubed-game-won h1 {margin: 430px 0 0; padding: 0; color: #f00; font-family: 'Titillium Web', sans-serif; font-size: 42px; font-weight: 900; line-height: 1; text-transform: uppercase; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff}
+#bcubed div.bcubed-page.bcubed-game-won p {margin: 0; color: #921092; font-size: 24px; font-weight: 900; line-height: 1; text-transform: uppercase; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff}
+#bcubed button.bcubed-back.bcubed-page.bcubed-game-won {position: absolute; bottom: 6px; right: 10px; font-size: 16px}
+
+/* Level list */
+#bcubed div.bcubed-page.bcubed-level-list {position: absolute; top: 50%; left: 50%; width: 476px; height: 492px; margin: -246px 0 0 -238px; border: 4px solid #ff0; border-radius: 2px; font-size: 25px}
+#bcubed div.bcubed-page.bcubed-level-list h1 {margin: 10px auto 0; padding: 0; font-size: 42px; font-weight: 900; color: #f00; text-transform: uppercase; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff}
+#bcubed div.bcubed-page.bcubed-level-list ul {overflow: hidden; list-style: none; margin: 0; padding: 0 0 0 19px}
+#bcubed div.bcubed-page.bcubed-level-list ul li {float: left; padding: 16px 0 0 17px}
+#bcubed div.bcubed-page.bcubed-level-list ul button {float: left; width: 53px; border: 3px solid #fff; border-radius: 2px; background: #22ddca; font-size: 30px; font-weight: 700; line-height: 47px; text-shadow: none}
+#bcubed div.bcubed-page.bcubed-level-list ul button.bcubed-disabled {background: #666; cursor: auto}
+#bcubed div.bcubed-page.bcubed-level-list button.bcubed-back {margin: 5px auto 0}
+
+/* Main menu - title screen */
+#bcubed p.bcubed-page.bcubed-title {position: absolute; top: 50%; left: 50%; width: 600px; height: 270px; margin: -275px 0 0 -300px; padding-top: 280px; background: transparent url('../coolmethgames/page_title.png') no-repeat 50% 50%}
+
+
+/*
+ * Animated stars in the background
+ */
+#bcubed-stars {position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 0; overflow: hidden; margin: 0; padding: 0; pointer-events: none}
+#bcubed-stars img {position: absolute; left: 0; top: 0; z-index: 0; transition: transform 0.5s; transform-origin: 50% 50%; transform: scale(0, 0); will-change: left, top}

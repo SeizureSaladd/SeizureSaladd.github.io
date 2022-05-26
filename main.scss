@@ -1,0 +1,155 @@
+:root {
+  --main: rgba(25, 25, 25);
+}
+
+body {
+  font-family: "Lexend";
+  background: var(--main);
+  height:100%;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: greenyellow;
+  &:hover {
+    background-color: (rgb(189, 252, 95));
+  }
+}
+.row {
+  position: relative;
+  padding: 5em;
+  width: 100%;
+}
+.title-container {
+  text-align: center;
+
+
+  
+  
+  .name {
+    float: left;
+
+    color: white;
+    .green {
+      color: rgb(79, 243, 79);
+      background: rgb(60,60,60 );
+      padding: 3px;
+      border-radius: 5px;
+      &:hover {
+        text-decoration: none;
+      }
+      box-shadow: 0 1px 1px #00000028, 0 2px 2px #00000013, 0 4px 4px #00000028;
+    }
+  }
+}
+
+.discord-tag {
+  min-width: 250px;
+  min-height: 400px;
+  max-width: 300px;
+  max-height: 500px;
+=
+  background: rgb(60,60,60 );
+  box-shadow: 0 1px 1px #00000028, 0 2px 2px #00000013, 0 4px 4px #00000028;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  .pfp {
+    border: 8px solid white;
+    border-radius: 200px;
+    width: 100px;
+  }
+  .status {
+    position: relative;
+    bottom: 30px;
+    left: 165px;
+    background: rgb(39, 255, 39);
+    width: 25px;
+    height: 25px;
+    border-radius: 200px;
+    border: 5px solid green;
+    z-index: 0;
+  }
+  .tag {
+    z-index: 10;
+    margin-top: 0em;
+    font-size: 1.5em;
+    color: white;
+    strong {
+      color: rgb(79, 243, 79);
+    }
+  }
+  .discord-server{
+      position: relative;
+      bottom: 10px;
+      border-radius: 10px;
+      border: 0px solid transparent;
+      width: 200px;
+      background: rgb(65, 201, 65);
+      color:white;
+      transition: background 0.3s;
+      &:hover{
+        background: rgb(85, 250, 85);
+      }
+
+  }
+  .desc {
+    color: white;
+    font-family: "Lexend", sans-serif;
+  }
+}
+.contacts {
+  .contact {
+    background: transparent;
+    position: relative;
+
+    
+    margin-inline: 0.5em;
+    img {
+      width: 25px;
+    }
+
+  }
+}
+.card{
+  margin: 2em;
+  border:1px solid rgb(60,60,60 );
+  color:white;
+  
+  .card-img-top{
+    width: auto;
+    background:rgb(60,60,60 );
+  }
+  .card-body{
+    background: rgb(60,60,60 );
+
+  }
+  .card-title{
+    background: rgb(60,60,60 );
+  }
+  
+  
+}
+.cardasdasd{
+  color:green;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+.card-header{
+  color:green;
+  text-align: center;
+}
+a{
+  color:green;
+  &:hover{
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+}

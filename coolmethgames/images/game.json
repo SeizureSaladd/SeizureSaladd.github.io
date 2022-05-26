@@ -1,0 +1,367 @@
+{
+    "meta": {
+        "image": "game.png"
+    },
+    "frames": {
+        "game/transparent.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/teleport_top.png": {
+            "frame": {
+                "x": 54,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/teleport_sides.png": {
+            "frame": {
+                "x": 108,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/teleport_bottom.png": {
+            "frame": {
+                "x": 162,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/spawn.png": {
+            "frame": {
+                "x": 216,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/regular_top.png": {
+            "frame": {
+                "x": 270,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/regular_sides.png": {
+            "frame": {
+                "x": 324,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/regular_bottom.png": {
+            "frame": {
+                "x": 378,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/player_top.png": {
+            "frame": {
+                "x": 432,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/player_sides.png": {
+            "frame": {
+                "x": 0,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/player_bottom.png": {
+            "frame": {
+                "x": 54,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/more_top.png": {
+            "frame": {
+                "x": 108,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/more_sides.png": {
+            "frame": {
+                "x": 162,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/more_bottom.png": {
+            "frame": {
+                "x": 216,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/lock_top.png": {
+            "frame": {
+                "x": 270,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/lock_sides.png": {
+            "frame": {
+                "x": 324,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/lock_bottom.png": {
+            "frame": {
+                "x": 378,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/finish_top.png": {
+            "frame": {
+                "x": 432,
+                "y": 54,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/finish_sides.png": {
+            "frame": {
+                "x": 0,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/finish_bottom.png": {
+            "frame": {
+                "x": 54,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/double_top.png": {
+            "frame": {
+                "x": 108,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/double_sides.png": {
+            "frame": {
+                "x": 162,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/double_hit_top.png": {
+            "frame": {
+                "x": 216,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/double_hit_sides.png": {
+            "frame": {
+                "x": 270,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/double_hit_bottom.png": {
+            "frame": {
+                "x": 324,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/double_bottom.png": {
+            "frame": {
+                "x": 378,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/bridge_trigger_top.png": {
+            "frame": {
+                "x": 432,
+                "y": 108,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/bridge_trigger_sides.png": {
+            "frame": {
+                "x": 0,
+                "y": 162,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/bridge_trigger_bottom.png": {
+            "frame": {
+                "x": 54,
+                "y": 162,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "game/bridge.png": {
+            "frame": {
+                "x": 108,
+                "y": 162,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        }
+    }
+}

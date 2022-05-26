@@ -1,0 +1,171 @@
+:root {
+  --main: rgba(25, 25, 25);
+}
+
+body {
+  font-family: "Lexend";
+  background: var(--main);
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #bdfc5f;
+}
+
+.row {
+  position: relative;
+  padding: 5em;
+  width: 100%;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container .name {
+  float: left;
+  color: white;
+}
+
+.title-container .name .green {
+  color: #4ff34f;
+  background: #3c3c3c;
+  padding: 3px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 1px #00000028, 0 2px 2px #00000013, 0 4px 4px #00000028;
+          box-shadow: 0 1px 1px #00000028, 0 2px 2px #00000013, 0 4px 4px #00000028;
+}
+
+.title-container .name .green:hover {
+  text-decoration: none;
+}
+
+.discord-tag {
+  min-width: 250px;
+  min-height: 400px;
+  max-width: 300px;
+  max-height: 500px;
+  margin-inline: auto;
+  background: #3c3c3c;
+  -webkit-box-shadow: 0 1px 1px #00000028, 0 2px 2px #00000013, 0 4px 4px #00000028;
+          box-shadow: 0 1px 1px #00000028, 0 2px 2px #00000013, 0 4px 4px #00000028;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.discord-tag .pfp {
+  border: 8px solid white;
+  border-radius: 200px;
+  width: 100px;
+}
+
+.discord-tag .status {
+  position: relative;
+  bottom: 30px;
+  left: 165px;
+  background: #27ff27;
+  width: 25px;
+  height: 25px;
+  border-radius: 200px;
+  border: 5px solid green;
+  z-index: 0;
+}
+
+.discord-tag .tag {
+  z-index: 10;
+  margin-top: 0em;
+  font-size: 1.5em;
+  color: white;
+}
+
+.discord-tag .tag strong {
+  color: #4ff34f;
+}
+
+.discord-tag .discord-server {
+  position: relative;
+  bottom: 10px;
+  border-radius: 10px;
+  border: 0px solid transparent;
+  width: 200px;
+  background: #41c941;
+  color: white;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.discord-tag .discord-server:hover {
+  background: #55fa55;
+}
+
+.discord-tag .desc {
+  color: white;
+  font-family: "Lexend", sans-serif;
+}
+
+.contacts .contact {
+  background: transparent;
+  position: relative;
+  margin-inline: 0.5em;
+}
+
+.contacts .contact img {
+  width: 25px;
+}
+
+.card {
+  margin: 2em;
+  border: 1px solid #3c3c3c;
+  color: white;
+}
+
+.card .card-img-top {
+  width: auto;
+  background: #3c3c3c;
+}
+
+.card .card-body {
+  background: #3c3c3c;
+}
+
+.card .card-title {
+  background: #3c3c3c;
+}
+
+.cardasdasd {
+  color: green;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.card-header {
+  color: green;
+  text-align: center;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+/*# sourceMappingURL=main.css.map */
