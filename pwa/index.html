@@ -3,7 +3,7 @@
     <head>
         <title>George Wahsington's Big Dream</title>
         <meta charset="UTF-8">
-        <link rel="manifest" href="pwa//manifest.webmanifest">
+        <link rel="manifest" href="pwa/manifest.webmanifest">
         <link rel="stylesheet" href="pwa/main.css">
 
         <link rel="apple-touch-icon" href="pwa/icons/apple-icon-180.png">
@@ -70,7 +70,7 @@
                 document.body.appendChild(messag);
             }
             if('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js');
+                navigator.serviceWorker.register('pwa/service-worker.js');
             }
         </script>
     </body>
