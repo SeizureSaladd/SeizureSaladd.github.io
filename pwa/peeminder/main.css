@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://melmagazine.com/wp-content/uploads/2020/12/how-to-pee-without-splashback.jpg");
+    background-size: cover;
+}
+input {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    color: white;
+}
