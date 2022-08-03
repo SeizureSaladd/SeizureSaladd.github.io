@@ -27,10 +27,10 @@
           "purpose": "maskable"
         }
       ],
-    "start_url": "/pwa/peeminder/",
+    "start_url": "./",
     "background_color": "#FFFF00",
     "display": "standalone",
-    "scope": "/",
+    "scope": ".",
     "theme_color": "#FFFF00",
     "description": "JHIUVE VSIOEUHVJE IUSJELUE VLEIUHVERIUHV EIHNE RO9AURJH LIUKEHRNELIGHJKG"
   }
