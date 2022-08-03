@@ -27,7 +27,7 @@
           "purpose": "maskable"
         }
       ],
-    "start_url": "/",
+    "start_url": "/pwa/peeminder",
     "background_color": "#FFFF00",
     "display": "standalone",
     "scope": "/",
